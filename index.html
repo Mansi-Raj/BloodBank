@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Bank Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header id="header">
+    <nav>
+      <div class="container">
+        <a href="#" class="logo">BloodBank</a>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#register">Register</a></li>
+          <li><a href="#availability">Availability</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="container">
+      <h1>Welcome to Blood Bank</h1>
+      <p>Saving Lives, One Donation at a Time</p>
+    </div>
+  </section>
+
+  <!-- Register Section -->
+  <section id="register">
+    <div class="container">
+      <h2>Register as a Donor</h2>
+      <form id="donorForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        
+        <label for="bloodGroup">Blood Group:</label>
+        <select id="bloodGroup" required>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="AB+">AB+</option>
+          <option value="AB-">AB-</option>
+          <option value="O+">O+</option>
+          <option value="O-">O-</option>
+        </select>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" required>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Blood Availability Section -->
+  <section id="availability">
+    <div class="container">
+      <h2>Blood Availability</h2>
+      <div id="bloodList">
+        <!-- Blood availability will be dynamically populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: support@bloodbank.com</p>
+      <p>Phone: +123 456 7890</p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Blood Bank. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

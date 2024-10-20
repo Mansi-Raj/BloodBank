@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #d9534f;
+    padding: 1rem 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin: 0 1rem;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  section {
+    padding: 3rem 0;
+  }
+  
+  #home {
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  #home h1 {
+    font-size: 2.5rem;
+  }
+  
+  #home p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  #register form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #register label {
+    margin-top: 1rem;
+  }
+  
+  #register input, #register select, #register button {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  #register button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #availability .container {
+    text-align: center;
+  }
+  
+  #availability #bloodList {
+    margin-top: 2rem;
+  }
+  
+  #contact {
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
